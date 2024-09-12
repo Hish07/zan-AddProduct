@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { FaTachometerAlt, FaBox, FaUsers, FaTags, FaClipboardList, FaTicketAlt, FaCommentDots, FaCog, FaSignOutAlt } from 'react-icons/fa';
-import './sidebar.css'; 
+import './Sidebar.css'; 
 
 const Sidebar = () => {
-  const [activeMenu, setActiveMenu] = useState('Products'); // Default active menu
+  const [activeMenu, setActiveMenu] = useState('Products');
 
   const handleMenuClick = (menu) => {
     setActiveMenu(menu);
